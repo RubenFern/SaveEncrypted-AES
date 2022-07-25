@@ -11,5 +11,9 @@ public class Main
         password = c.Encrypt(password);
 
         System.out.println("Con cifrado: " + password);
+
+        password = c.Decrypt(password);
+
+        System.out.println("Descifrado: " + password);
     }
 }
